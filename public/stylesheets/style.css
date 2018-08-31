@@ -1,0 +1,29 @@
+* {
+    font-family: 'Montserrat',
+        sans-serif;
+    margin: 1em 0 0 0;
+}
+
+.centered-wrapper {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.centered-wrapper:before {
+    position: relative;
+    display: inline-block;
+}
+
+.centered-content {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    vertical-align: middle;
+    align-content: center;
+}
+
+:root {
+    --mdc-theme-primary: #000000 !important;
+}
