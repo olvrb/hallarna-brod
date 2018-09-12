@@ -4,6 +4,21 @@
     margin: 1em 0 0 0;
 }
 
+.page-bg {
+    background: url('../images/bg.png');
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .centered-wrapper {
     position: relative;
     text-align: center;
@@ -16,10 +31,9 @@
 }
 
 .centered-content {
-    content: "";
     display: inline-block;
     height: 100%;
-    width: 10%;
+    width: 100%;
     vertical-align: middle;
     align-content: center;
 }
