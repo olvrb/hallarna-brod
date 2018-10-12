@@ -1,69 +1,69 @@
 * {
-  font-family: "Montserrat", sans-serif;
-  margin: 1em 0 0 0;
+    font-family: "Montserrat", sans-serif;
+    margin: 1em 0 0 0;
 }
 
 .page-bg {
-  background: url("../images/bg.png");
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
+    background: url("../images/bg.png");
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .logo {
-  height: 20%;
-  width: 20%;
+    height: 20%;
+    width: 20%;
 }
 
 .centered-wrapper {
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .centered-wrapper:before {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .centered-content {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  vertical-align: middle;
-  align-content: center;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    align-content: center;
 }
 
 :root {
-  --mdc-theme-primary: #000000 !important;
+    --mdc-theme-primary: #000000 !important;
 }
 
 @media only screen and (max-width: 600px) {
-  .logo {
-    height: 100%;
-    width: 100%;
-  }
+    .logo {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: transparent;
-  color: #000000;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
 }
 
 img {
-  object-fit: fill;
-  mix-blend-mode: multiply;
+    object-fit: fill;
+    mix-blend-mode: multiply;
 }
